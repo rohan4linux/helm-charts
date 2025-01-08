@@ -3,7 +3,7 @@ entries:
   mychart1:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-08T14:32:47.7161642+05:30"
+    created: "2025-01-08T14:51:21.785723+05:30"
     description: A Helm chart for Kubernetes
     digest: e222211a83b56868a6950403a81dc646b2d588e7c4c43f5857f70f29152030ca
     name: mychart1
@@ -13,8 +13,18 @@ entries:
     version: 0.1.0
   mychart2:
   - apiVersion: v2
+    appVersion: 5.0.0
+    created: "2025-01-08T14:51:21.7927486+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 57b1b11d7cba4d7b94210c943bcdd75ba779663f5c5ccef477151bf22013d546
+    name: mychart2
+    type: application
+    urls:
+    - https://rohan4linux.github.io/helm-charts/mychart2-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: 4.0.0
-    created: "2025-01-08T14:32:47.7189182+05:30"
+    created: "2025-01-08T14:51:21.7913767+05:30"
     description: A Helm chart for Kubernetes
     digest: 9782a41ab144b043cd772cff71ea6d210b66f90e75167b320edc7c3bc862903f
     name: mychart2
@@ -24,7 +34,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2025-01-08T14:32:47.7183652+05:30"
+    created: "2025-01-08T14:51:21.7901696+05:30"
     description: A Helm chart for Kubernetes
     digest: d3a3a519559d4d99de40120764005f4cdac5fa57c306611b8dda516e0a71181d
     name: mychart2
@@ -34,7 +44,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-01-08T14:32:47.717807+05:30"
+    created: "2025-01-08T14:51:21.7884249+05:30"
     description: A Helm chart for Kubernetes
     digest: 0801e2b3d2324484220b7abc96aa7b03f8dfbdc505c77b6ad9e3da9beef0efa8
     name: mychart2
@@ -44,7 +54,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-08T14:32:47.7172261+05:30"
+    created: "2025-01-08T14:51:21.7872477+05:30"
     description: A Helm chart for Kubernetes
     digest: a3c74b6d93af660cf664456b5eee8932d464157e3b4f75f3754cd238eb863774
     name: mychart2
@@ -55,7 +65,7 @@ entries:
   mychart3:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-08T14:32:47.7201295+05:30"
+    created: "2025-01-08T14:51:21.7940227+05:30"
     description: A Helm chart for Kubernetes
     digest: 4a0db32a39ed05e1729f53204123d8a7496e83d7a01c8f05d2bb6e4b864e24c5
     name: mychart3
@@ -66,7 +76,7 @@ entries:
   mychart4:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-08T14:32:47.720686+05:30"
+    created: "2025-01-08T14:51:21.7956797+05:30"
     description: A Helm chart for Kubernetes
     digest: d23750c76ea4453f7b13804f2011c0244715d651e249a123e8e50bd5547002ea
     name: mychart4
@@ -77,7 +87,7 @@ entries:
   umsapp:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-08T14:32:47.7288742+05:30"
+    created: "2025-01-08T14:51:21.8085047+05:30"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -91,4 +101,4 @@ entries:
     urls:
     - https://rohan4linux.github.io/helm-charts/umsapp-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-08T14:32:47.7150628+05:30"
+generated: "2025-01-08T14:51:21.7839154+05:30"
